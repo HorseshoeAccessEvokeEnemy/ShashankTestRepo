@@ -250,6 +250,24 @@ schemas:
         "cookie"
       ]
     }
+- POSTjsonwithrawCopyRequest: |
+    {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "id": "POSTjsonwithrawCopyRequest",
+      "title": "POSTjsonwithrawCopyRequest",
+      "example": {
+        "json": "Test-Test"
+      },
+      "type": "object",
+      "properties": {
+        "json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "json"
+      ]
+    }
 /headers:
   get:
     description: |
@@ -581,38 +599,45 @@ schemas:
 /post:
   post:
     body:
-      application/x-www-form-urlencoded:
-        formParameters:
-          1:
-            type: string
-            example: "'a'"
-            required: true
-            displayName: 1
-          2:
-            type: string
-            example: '"b"'
-            required: true
-            displayName: 2
-          "'3'":
-            type: string
-            example: c
-            required: true
-            displayName: "'3'"
-          '"4"':
-            type: string
-            example: d
-            required: true
-            displayName: '"4"'
-          Special:
-            type: string
-            example: '!@#$%*()^_=`&~              '
-            required: true
-            displayName: Special
-          more:
-            type: string
-            example: ",./';[]}{\":?><|\\\\    "
-            required: true
-            displayName: more
+      application/json:
+        schema: |
+          {
+
+            "id": "POSTjsonwithrawCopyRequest",
+
+            "title": "POSTjsonwithrawCopyRequest",
+
+            "example": {
+
+              "json": "Test-Test"
+
+            },
+
+            "type": "object",
+
+            "properties": {
+
+              "json": {
+
+                "type": "string"
+
+              }
+
+            },
+
+            "required": [
+
+              "json"
+
+            ]
+
+          }
+        example: |
+          {
+
+            "json": "Test-Test"
+
+          }
     description: "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested."
     responses:
       200:
@@ -620,7 +645,7 @@ schemas:
     headers:
       Content-Type:
         type: string
-        example: application/x-www-form-urlencoded
+        example: application/json
         required: true
         displayName: Content-Type
 /put:
