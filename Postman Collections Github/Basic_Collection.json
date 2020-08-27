@@ -1205,7 +1205,7 @@
       ]
     },
     {
-      "name": "TestBackUpRequest On Github Copy",
+      "name": "TestBackUpRequest On MS Flow",
       "_postman_id": "586a3526-3f98-4447-acd3-af006adc46f2",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
@@ -1455,7 +1455,7 @@
   ],
   "variable": [
     {
-      "id": "32dee597-6050-4c27-b460-95120f6420f1",
+      "id": "9297355b-b066-4a8c-9844-94d01278a087",
       "key": "my_variable",
       "value": "",
       "type": "string"
