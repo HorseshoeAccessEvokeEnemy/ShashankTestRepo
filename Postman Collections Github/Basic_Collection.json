@@ -979,7 +979,7 @@
       ]
     },
     {
-      "name": "TestBackUpRequest OnBitbucket Copy",
+      "name": "TestBackUpRequest On Github",
       "_postman_id": "94386891-4622-492b-9c90-0800814cf279",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
@@ -1168,7 +1168,7 @@
   ],
   "variable": [
     {
-      "id": "507b0061-65ce-43f2-bf29-761b439c13a2",
+      "id": "2c865786-e66f-4fc4-83e6-63359490308a",
       "key": "my_variable",
       "value": "",
       "type": "string"
