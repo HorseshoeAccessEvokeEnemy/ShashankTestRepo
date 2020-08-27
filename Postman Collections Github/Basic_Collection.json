@@ -1429,6 +1429,44 @@
           "body": "{\n    \"args\": {\n        \"test\": \"Github\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f4785cb-91140dece5f3a717e2fabc85\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"007e5488-31ef-4b60-a34c-322255e3e58b\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3A7Q-HUrl3sETkedNlqkq4uNZ8sZZdWurK.8kiOgcGgbGNzIwEHSkNqGsn9C9dWEzevlE4Y%2FyYWGUk\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=Github&anotherone=232\"\n}"
         }
       ]
+    },
+    {
+      "name": "POST json with raw Copy",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "60c08fbb-6c0d-4075-9137-0f01d97671b8",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "320af7b4-13f9-480d-b1ac-b3c02de6deaf",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"json\": \"Test-Test\"\n}",
+          "options": {
+            "raw": {}
+          }
+        },
+        "url": "https://postman-echo.com/post",
+        "description": "The HTTP `POST` request method is meant to transfer data to a server \n(and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `POST` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following request,\n\n> POST /hi/there?hand=wave\n>\n> <request-body>\n\nThe parameter \"hand\" has the value \"wave\". The request body can be in multiple\nformats. These formats are defined by the MIME type of the request. The MIME \nType can be set using the ``Content-Type`` HTTP header. The most commonly used \nMIME types are:\n\n* `multipart/form-data`\n* `application/x-www-form-urlencoded`\n* `application/json`\n\nThis endpoint echoes the HTTP headers, request parameters, the contents of\nthe request body and the complete URI requested."
+      },
+      "response": []
     }
   ],
   "event": [
@@ -1455,7 +1493,7 @@
   ],
   "variable": [
     {
-      "id": "9297355b-b066-4a8c-9844-94d01278a087",
+      "id": "7872fb9b-87aa-46ed-b6df-37052f6c3a42",
       "key": "my_variable",
       "value": "",
       "type": "string"
