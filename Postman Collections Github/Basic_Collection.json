@@ -1140,6 +1140,293 @@
           "cookie": [],
           "responseTime": null,
           "body": "{\n    \"args\": {\n        \"test\": \"bitbucket\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f476322-e9b86a3dacf9ed1e436e7e3f\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"b23fd718-3596-4eb5-b686-d8d16b38e9a0\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3AtQ8xUUYshCImX7MXamJ5auIsumIgO78U.yrNWPp2YKhQ3qwOn1H%2F6TVCD0BPRbnWlvB0RGsp19gY\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=bitbucket&anotherone=232\"\n}"
+        },
+        {
+          "id": "cc213df8-86bd-4005-9c67-44ac4c384b10",
+          "name": "TestBackUpRequest On Github",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://postman-echo.com/get?test=Github&anotherone=232",
+              "protocol": "https",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "test",
+                  "value": "Github"
+                },
+                {
+                  "key": "anotherone",
+                  "value": "232"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 27 Aug 2020 10:07:07 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "563"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"233-QWBg3tr+czs7GiNaaMY/npx+eI4\""
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"args\": {\n        \"test\": \"Github\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f4785cb-91140dece5f3a717e2fabc85\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"007e5488-31ef-4b60-a34c-322255e3e58b\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3A7Q-HUrl3sETkedNlqkq4uNZ8sZZdWurK.8kiOgcGgbGNzIwEHSkNqGsn9C9dWEzevlE4Y%2FyYWGUk\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=Github&anotherone=232\"\n}"
+        }
+      ]
+    },
+    {
+      "name": "TestBackUpRequest On Github Copy",
+      "_postman_id": "586a3526-3f98-4447-acd3-af006adc46f2",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://postman-echo.com/get?test=123&anotherone=232",
+          "protocol": "https",
+          "host": [
+            "postman-echo",
+            "com"
+          ],
+          "path": [
+            "get"
+          ],
+          "query": [
+            {
+              "key": "test",
+              "value": "123"
+            },
+            {
+              "key": "anotherone",
+              "value": "232"
+            }
+          ]
+        },
+        "description": "Testing of the new request is backed up or not"
+      },
+      "response": [
+        {
+          "id": "12c2e316-bd94-4349-97a2-5ba71723d89c",
+          "name": "TestBackUpRequest",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://postman-echo.com/get?test=123&anotherone=232",
+              "protocol": "https",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "test",
+                  "value": "123"
+                },
+                {
+                  "key": "anotherone",
+                  "value": "232"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 27 Aug 2020 06:05:21 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "557"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"22d-RyVPLkBuI3kwOnd7ovucwnWAE90\""
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "set-cookie",
+              "value": "sails.sid=s%3AtQ8xUUYshCImX7MXamJ5auIsumIgO78U.yrNWPp2YKhQ3qwOn1H%2F6TVCD0BPRbnWlvB0RGsp19gY; Path=/; HttpOnly"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"args\": {\n        \"test\": \"123\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f474d21-6de84f881387d360ff213f28\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"d5f39a18-b2d8-4753-a831-47005120261f\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3AeXlh3nHhFwaifWFA-i3k0RfZPT5wFLJl.mw95Gqec6LBD8gKT3nx0iJoYW5RvTc4tFgA%2BX87fZRs\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=123&anotherone=232\"\n}"
+        },
+        {
+          "id": "cf38b15a-17f5-4ba0-afff-cf4697373ac4",
+          "name": "TestBackUpRequest OnBitbucket",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://postman-echo.com/get?test=bitbucket&anotherone=232",
+              "protocol": "https",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "test",
+                  "value": "bitbucket"
+                },
+                {
+                  "key": "anotherone",
+                  "value": "232"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 27 Aug 2020 07:39:14 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "569"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"239-2MR5GPkgUDkaypVi0WhwSJ1XuUk\""
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            },
+            {
+              "key": "set-cookie",
+              "value": "sails.sid=s%3A7Q-HUrl3sETkedNlqkq4uNZ8sZZdWurK.8kiOgcGgbGNzIwEHSkNqGsn9C9dWEzevlE4Y%2FyYWGUk; Path=/; HttpOnly"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"args\": {\n        \"test\": \"bitbucket\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f476322-e9b86a3dacf9ed1e436e7e3f\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"b23fd718-3596-4eb5-b686-d8d16b38e9a0\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3AtQ8xUUYshCImX7MXamJ5auIsumIgO78U.yrNWPp2YKhQ3qwOn1H%2F6TVCD0BPRbnWlvB0RGsp19gY\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=bitbucket&anotherone=232\"\n}"
+        },
+        {
+          "id": "fcea9be5-2315-4e05-b639-239630d9b2d9",
+          "name": "TestBackUpRequest On Github",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://postman-echo.com/get?test=Github&anotherone=232",
+              "protocol": "https",
+              "host": [
+                "postman-echo",
+                "com"
+              ],
+              "path": [
+                "get"
+              ],
+              "query": [
+                {
+                  "key": "test",
+                  "value": "Github"
+                },
+                {
+                  "key": "anotherone",
+                  "value": "232"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Date",
+              "value": "Thu, 27 Aug 2020 10:07:07 GMT"
+            },
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Content-Length",
+              "value": "563"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "ETag",
+              "value": "W/\"233-QWBg3tr+czs7GiNaaMY/npx+eI4\""
+            },
+            {
+              "key": "Vary",
+              "value": "Accept-Encoding"
+            }
+          ],
+          "cookie": [],
+          "responseTime": null,
+          "body": "{\n    \"args\": {\n        \"test\": \"Github\",\n        \"anotherone\": \"232\"\n    },\n    \"headers\": {\n        \"x-forwarded-proto\": \"https\",\n        \"x-forwarded-port\": \"443\",\n        \"host\": \"postman-echo.com\",\n        \"x-amzn-trace-id\": \"Root=1-5f4785cb-91140dece5f3a717e2fabc85\",\n        \"user-agent\": \"PostmanRuntime/7.26.4\",\n        \"accept\": \"*/*\",\n        \"cache-control\": \"no-cache\",\n        \"postman-token\": \"007e5488-31ef-4b60-a34c-322255e3e58b\",\n        \"accept-encoding\": \"gzip, deflate, br\",\n        \"cookie\": \"MyTestCookie=testCookie1; sails.sid=s%3A7Q-HUrl3sETkedNlqkq4uNZ8sZZdWurK.8kiOgcGgbGNzIwEHSkNqGsn9C9dWEzevlE4Y%2FyYWGUk\"\n    },\n    \"url\": \"https://postman-echo.com/get?test=Github&anotherone=232\"\n}"
         }
       ]
     }
@@ -1168,7 +1455,7 @@
   ],
   "variable": [
     {
-      "id": "2c865786-e66f-4fc4-83e6-63359490308a",
+      "id": "035a4a0a-1cb9-4a92-beaf-268d3e651fe1",
       "key": "my_variable",
       "value": "",
       "type": "string"
