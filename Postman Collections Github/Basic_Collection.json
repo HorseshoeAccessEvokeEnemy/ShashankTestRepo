@@ -7,6 +7,11 @@
   },
   "item": [
     {
+      "name": "Trying Folder",
+      "item": [],
+      "_postman_id": "903818b3-cb55-4933-8011-0c03ce438f1d"
+    },
+    {
       "name": "Request Headers (With special Characters)",
       "event": [
         {
@@ -1493,7 +1498,7 @@
   ],
   "variable": [
     {
-      "id": "1e3cadf6-4110-48b8-8d5d-8c26d1d705ee",
+      "id": "295c18e7-95d0-4351-a3b6-44968bc11f37",
       "key": "my_variable",
       "value": "",
       "type": "string"
